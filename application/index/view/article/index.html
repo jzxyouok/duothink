@@ -1,0 +1,30 @@
+{extend name="common/index"/}
+{block name="content"}
+<div class="am-g">
+    <div class="am-u-sm-9">
+        <article class="am-article">
+            <div class="am-article-hd">
+                <h1 class="am-article-title">{$article.subject}</h1>
+                <p class="am-article-meta">{$article.dateline|date="Y-m-d H:i:s",###}</p>
+            </div>
+
+            <div class="am-article-bd">
+                <p class="am-article-lead">{$article.description}</p>
+                {$article.message|htmlspecialchars_decode}
+            </div>
+        </article>
+    </div>
+    <div class="am-u-sm-3">
+        <section class="am-panel am-panel-default">
+            <header class="am-panel-hd">
+                <h3 class="am-panel-title">今日快报</h3>
+            </header>
+            <div class="am-panel-bd">
+                面板内容
+            </div>
+            <footer class="am-panel-footer">面板页脚</footer>
+        </section>
+
+    </div>
+</div>
+{/block}

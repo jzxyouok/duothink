@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{$config.sitename} - powered by duothink!</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="icon" type="image/png" href="__i__/favicon.png">
+    <link rel="stylesheet" href="__c__/amazeui.min.css">
+    <link rel="stylesheet" href="__c__/app.css">
+    <link rel="stylesheet" href="__c__/amazeui.theme.css">
+    {block name="css"}{/block}
+</head>
+<body>
+<header class="am-topbar">
+    <div class="am-container">
+        <ul class="am-nav am-nav-pills">
+            <li class="am-active"><a href="#">active列表</a></li>
+            <li><a href="#">列表</a></li>
+        </ul>
+    </div>
+</header>
+<div class="am-container">
+    {block name="content"}{/block}
+</div>
+{block name="modal"}{/block}
+<div class="alert-group">
+    <div class="am-alert am-alert-success" data-am-alert="">
+        <button type="button" class="am-close">&times;</button>
+        <p>内容</p>
+    </div>
+    <div class="am-alert am-alert-danger" data-am-alert="">
+        <button type="button" class="am-close">&times;</button>
+        <p>内容</p>
+    </div>
+    <div class="am-alert am-alert-warning" data-am-alert="">
+        <button type="button" class="am-close">&times;</button>
+        <p>内容</p>
+    </div>
+</div>
+<script src="__j__/jquery.min.js"></script>
+<script src="__j__/amazeui.min.js"></script>
+<script>var spm='{:spm()}',vcs='{:vcs()}';</script>
+<script src="__j__/common.min.js"></script>
+{block name="js"}{/block}
+</body>
+</html>
