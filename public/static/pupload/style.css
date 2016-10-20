@@ -1,0 +1,27 @@
+.am-widget-pupload {
+    /*background-color: #fafafa;*/
+    border:1px dashed #ccc;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+}
+.am-width-uploader {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.am-widget-pupload>.am-pickfiles {
+    top:0;
+    right:0;
+    left:0;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    color: #444;
+    line-height: 100px;
+}
+.am-widget-pupload>.am-pickfiles:hover {
+    color: #009ed2;
+    transition-duration: 500ms;
+}

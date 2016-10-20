@@ -1,0 +1,74 @@
+/* Write your styles */
+.alert-group > .am-alert {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 500px;
+    margin: 10px 0 0 -250px;
+    border-radius: 2px;
+    border: none;
+    z-index: 1106;
+}
+
+.alert-group > .am-alert > .am-close {
+    color: #fff;
+    opacity: .8;
+}
+
+.am-border-0 {
+    border: none !important;
+}
+
+.am-border {
+    border: 1px solid #ddd;
+}
+
+.am-border-bottom {
+    border-bottom: 1px solid #ddd;
+}
+
+.am-modal > .am-modal-dialog {
+    border-radius: 3px;
+    text-align: left;
+    background-color: #fff;
+    overflow: hidden;
+    font-size: 1.4rem;
+}
+
+.am-modal > .am-modal-dialog > .am-modal-bd {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.am-modal-dialog > .am-modal-hd {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
+    background-color: #f8f8f8;
+    padding-top: .7rem;
+}
+
+.am-modal-hd .am-close {
+    top: 7px;
+    right: 7px;
+}
+
+.am-text-note {
+    color: #888;
+}
+
+.am-table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.am-container {
+    max-width: 1200px;
+    width: 1200px !important;
+}
+
+.am-topbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    min-height: 60px;
+    height: 60px;
+}
